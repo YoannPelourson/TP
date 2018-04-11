@@ -1,0 +1,70 @@
+.full-width{
+  width: 100%;
+}
+
+.full-height{
+  height: 100%;
+}
+
+.menu-buttons{
+
+  list-style-type: none;
+  padding-top: 10px;
+  padding: 0;
+  margin: 0;
+  height: 90px;
+  align-items: center;
+  text-transform: uppercase;
+  width: 650px;
+  position: fixed;
+  
+}
+
+.flex-base{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.flex-center{
+  text-align: center;
+  align-items: center;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-row-revers{
+  flex-direction: row-reverse;
+}
+
+.flex-column-resvers{
+  flex-direction: column-reverse;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+.list-no-style{
+  list-style-type: none;
+}
+
+.link-no-style{
+  text-decoration: none;
+}
+
+.base-card{
+  padding: 20px;
+  margin: 0px;
+  min-height: 150px;
+  max-height: 150px;
+  width: 80%;
+}
+
